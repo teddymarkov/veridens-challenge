@@ -23,6 +23,7 @@ pip install django
 
 ### constraints ###
 users.views.LoginView.form_valid is not allowed to have the execution flow changed. The authentication must go through the authbackends
+The email field must be required on the new user model.
 
 ### Guidelines and how to test for success ###
 
