@@ -18,7 +18,7 @@ pip install django
 ### Challenge tasks ###
 
 * We want a substituted user model (I.e a custom user model) with an *email* field **see users.models**
-* The user should be able to login with the email. *Requirement*: Implement a custom authentication backend and enable it. **see users.auth_backends.EmailAuthBackend**
+* The user should be able to login with the email adress or username. *Requirement*: Implement a custom authentication backend and enable it. **see users.auth_backends.EmailAuthBackend**
 * Migrations are not done. (Note: django 1.9)
 
 ### constraints ###
