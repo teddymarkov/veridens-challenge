@@ -19,7 +19,7 @@ pip install django
 
 * We want a substituted user model (I.e a custom user model) with an *email* field **see users.models**
 * The user should be able to login with the email adress or username. *Requirement*: Implement a custom authentication backend and enable it. **see users.auth_backends.EmailAuthBackend**
-* Migrations are not done. (Note: django 1.9)
+* Create initial migrations. 
 
 ### constraints ###
 users.views.LoginView.form_valid is not allowed to have the execution flow changed. The authentication must go through the authbackends
