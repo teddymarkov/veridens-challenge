@@ -4,8 +4,10 @@
 ## Summary ##
 Veridens challenge task.
 The challenge is a common task when doing django projects. 
-The pattern used fix the challenge is a standard pattern in django framework, it 
+The purpose is to take advantage of a standard pattern used in django framework which 
 allows to plugin/customize behaviour in a non-intrusive way.
+
+*It is well documented in the django docs*
 
 ## Install ##
 
