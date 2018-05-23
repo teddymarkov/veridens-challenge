@@ -22,6 +22,7 @@ pip install django
 ### Challenge tasks and requirements ###
 
 **Highlevel description**
+
 It's common to change the default login/authentication from a username to use email instead. 
 The task is to customize and create model and the authentication mechanism for it.
 
