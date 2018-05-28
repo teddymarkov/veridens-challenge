@@ -98,6 +98,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTHENTICATION_BACKENDS = (
+    'users.auth_backends.EmailAuthBackend',
+)
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
@@ -117,5 +121,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # CUSTOM USER SETTINGS HERE
-# Hint: https://docs.djangoproject.com/en/1.9/topics/auth/customizing/#substituting-a-custom-user-model
-# AUTH_USER_MODEL = 'myapp.MyUser'
+# https://docs.djangoproject.com/en/1.9/topics/auth/customizing/#substituting-a-custom-user-model
+AUTH_USER_MODEL = 'users.User'
